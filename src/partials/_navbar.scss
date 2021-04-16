@@ -1,0 +1,39 @@
+.nav-fixed {
+  width: 90%;
+  padding: 20px;
+  margin: 0 auto;
+}
+
+.nav-fixed ul {
+  @include flex;
+  justify-content: flex-end;
+  li{
+    a{
+      margin: 0 15px;
+      i{
+        color: #009cFF;
+      }
+      span {
+        color: #778899;
+      }
+    }
+  }
+}
+
+.navbar {
+  width: 90%;
+  margin: 0 auto;
+  height: 50px
+}
+
+.navbar ul {
+  @include flex;
+  justify-content: flex-start;
+  align-items: center;
+  li{
+    margin-right: 25px;
+    a{
+      color: #fff;
+    }
+  }
+}
