@@ -1,3 +1,21 @@
 @mixin flex {
   display: flex;
 }
+
+@mixin margin-auto{
+  margin: 0 auto;
+}
+
+@mixin artists {
+  color: rgba(255, 255, 255, 0.6);
+  position: absolute;
+  font-size: 12px;
+} 
+
+ @mixin blue {
+   color: #009cFF;
+ }
+
+ @mixin modules-padding {
+  padding: 50px 35px 0 ;
+ }

@@ -11,7 +11,7 @@
     a{
       margin: 0 15px;
       i{
-        color: #009cFF;
+        @include blue;
       }
       span {
         color: #778899;
@@ -22,7 +22,7 @@
 
 .navbar {
   width: 90%;
-  margin: 0 auto;
+  @include margin-auto;
   height: 50px
 }
 
