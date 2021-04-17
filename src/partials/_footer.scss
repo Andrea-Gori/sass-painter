@@ -1,0 +1,79 @@
+.footer-top{
+  width: 90%;
+  @include margin-auto;
+  @include flex;
+  justify-content: space-between;
+  margin-top: 40px;
+  ul{
+    width: calc(100% / 4);
+    li{
+      margin: 10px 0;
+      a{
+        color: #4d4d4d;
+        font-size: 12px;
+      }
+    }
+  }
+}
+
+.footer-mid{
+  width: 90%;
+  @include margin-auto;
+  @include flex;
+  justify-content: flex-end;
+  margin: 10px 0;
+  svg {
+    height: 35px;
+    margin: 0 5px;
+    fill: #fff;
+  }
+
+  .instagram {
+    background-color: #E4405F;
+  }
+  .facebook {
+    background-color: #3B5998;
+  }
+  .twitter {
+    background-color: #1DA1F2;
+  }
+  .youtube {
+    background-color: #CD201F;
+  }
+  .patreon {
+    background-color: #BD081C;
+  }
+  .painter-blog {
+    background-color: #FF8D00;
+    margin-right: 35px;
+  }
+}
+
+.footer-bot {
+  height: 90px;
+  background-color: #1e1e1e;
+  @include flex;
+  align-items: center;
+  .container-f-bot{
+    @include flex;
+    width: 90%;
+    @include margin-auto;
+    ul{
+      @include flex;
+      li{
+        margin-right: 15px;
+      }
+    }
+    .footer-right {
+      margin-left: auto;
+      margin-top: 25px;
+      color: #fff;
+      font-size: 12px;
+      li{
+        a{
+          color: #999;
+        }
+      }
+    }
+  }
+}
